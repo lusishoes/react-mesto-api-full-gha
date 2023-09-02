@@ -1,0 +1,10 @@
+.profile__add-button {
+    height: 22px;
+}
+
+@media (max-width: 425px) {
+    .profile__add-button {
+        width: 16px;
+        height: auto;
+    }
+}

@@ -1,0 +1,14 @@
+.profile__data-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+.profile__data-edit {
+    margin-top: 26px;
+    margin-bottom: 36px;
+}
+}

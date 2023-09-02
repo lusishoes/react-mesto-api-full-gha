@@ -1,0 +1,7 @@
+.elements__description {
+    padding: 0;
+    margin: 22px 15px 28px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
