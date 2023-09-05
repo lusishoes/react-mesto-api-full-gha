@@ -11,6 +11,6 @@
 
 IP-адрес 51.250.19.18
 
-Frontend lusishoes.students.nomoredomainsicu.ru
+Frontend https://lusishoes.students.nomoredomainsicu.ru
 
-Backend api.lusishoes.students.nomoredomainsicu.ru
+Backend https://api.lusishoes.students.nomoredomainsicu.ru
