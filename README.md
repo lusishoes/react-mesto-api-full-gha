@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.19.18
+IP 51.250.19.18
 
 Frontend https://lusishoes.students.nomoredomainsicu.ru
 
