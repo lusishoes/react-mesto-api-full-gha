@@ -1,0 +1,12 @@
+.profile__image-container {
+    position: relative;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .profile__image-container {
+        margin-right: 0;
+    }
+}

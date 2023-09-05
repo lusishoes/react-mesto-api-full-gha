@@ -1,0 +1,23 @@
+.profile__add-button-wrap {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.profile__add-button-wrap:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+.profile__add-button-wrap {
+    width: 282px;
+}
+}

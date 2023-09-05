@@ -1,0 +1,10 @@
+.elements__card-bucket {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.elements__card-bucket:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
