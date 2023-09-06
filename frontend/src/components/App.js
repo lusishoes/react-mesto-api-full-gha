@@ -137,7 +137,7 @@ function App() {
         if (!data) {
           return;
         }
-        // setEmail(data);
+        setEmail(data.email);
         setIsLoggedIn(true);
         navigate("/");
       })
