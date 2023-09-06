@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header({ email, onSignOut }) {
   const location = useLocation();
-  // console.log(email);
+  console.log(email);
   const signOut = () => {
     onSignOut();
   };
@@ -27,7 +27,7 @@ function Header({ email, onSignOut }) {
       )}
       {location.pathname === "/" && (
         <div className="header__container">
-          <h1 className="header__email">{email.email}</h1>
+          <h1 className="header__email">{ email }</h1> 
           <h1 className="header__signout" onClick={signOut}>
             Выйти
           </h1>

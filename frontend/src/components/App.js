@@ -27,7 +27,7 @@ function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [cards, setCards] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [email, setEmail] = useState({});
+  const [email, setEmail] = useState('');
   const navigate = useNavigate();
 
   // данные пользователя при монтировании
@@ -137,7 +137,7 @@ function App() {
         if (!data) {
           return;
         }
-        setEmail(data);
+        // setEmail(data);
         setIsLoggedIn(true);
         navigate("/");
       })
@@ -169,6 +169,7 @@ function App() {
     mestoAuth.login(password, email)
       .then((data) => {
         localStorage.setItem("jwt", data.token);
+        setEmail(email);
         setIsLoggedIn(true);
         navigate("/");
       })
